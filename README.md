@@ -1,16 +1,19 @@
-# hangman_game
+#  Flutter Hangman (Guess the Word)
 
-A new Flutter project.
+A simple **Guess the Word / Hangman** game built using **Flutter** with **state management** via `Provider`.
 
-## Getting Started
+The game chooses a random word each round, lets the user guess letters, and tracks correct and wrong guesses.  
+After 6 wrong guesses, the player loses — but can play again with a new random word.
 
-This project is a starting point for a Flutter application.
+##  Game Features
+- ✅ Built with **Flutter** (cross-platform)
+- ✅ Uses **Provider** for clean state management  
+- ✅ Tracks wrong guesses (max 6)
+- ✅ Reveals all matching letters when guessed (e.g., guessing `P` in `HAPPY` → `_ _ P P _`)
+- ✅ Displays **WIN / LOSS** result
+- ✅ “Play Again” button loads a new word
+- ✅ Shows letters already guessed
+- ✅ Each round uses a different random word
+- ✅ Responsive layout for web and mobile
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I took the help of chatgpt to publish github pages and to adjust the sizes of different buttons on my page as well as to fix some minor errors.
